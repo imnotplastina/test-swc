@@ -65,7 +65,8 @@ Laravel (MySQL)
 3. Скопировать .env.example в .env, при необходиемости внести изменения
 4. Поднять докер контейнеры ```sail up -d --build```
 5. Установить composer зависимости ```sail composer install```
-5. Установить frontend-зависимости ```sail npm i --save-dev```
-7. Сгенерировать ключь продукта ```sail artisan key:generate```
-8. Запустить миграции ```sail artisan migrate```
+6. Установить frontend-зависимости ```sail npm i --save-dev```
+7. Собрать frontend ```sail npm run dev```
+8. Сгенерировать ключь продукта ```sail artisan key:generate```
+9. Запустить миграции ```sail artisan migrate```
 10. Открыть адрес [localhost](http://localhost)
